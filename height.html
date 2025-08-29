@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+   <!--split screen layout-->
+   <div class="h-screen flex flex-col">
+       <div class="h-1/2 bg-pink-400 flex items-center justify-center">
+        <h1 class="text-3xl text-white font-bold">column one</h1>
+       </div>
+       <div class="h-1/2 bg-rose-400 flex items-center justify-center">
+        <h1 class="text-3xl text-white font-bold">column two</h1>
+       </div>
+   </div>
+
+   <!--split screen layout-->
+   <div class="flex">
+    <aside class="w-64 h-screen bg-green-300">
+        <h1 class="text-3xl text-black font-bold p-3">sidebar</h1>
+    </aside>
+    <main class="flex-1 bg-yellow-300">
+         <h1 class="text-3xl text-black font-bold p-3">main content</h1>
+    </main>
+   </div>
+  
+   <!--hero section-->
+   <div class="h-screen bg-cover bg-center flex items-center justify-center"
+    style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20241015/pngtree-abstract-watercolor-background-with-pastel-colors-like-light-blue-and-pink-image_16394760.jpg');"></div>
+      <h1 class="text-3xl text-pink-400 font-bold">hero banner</h1>
+   </div>
+  </body>
+</html>
